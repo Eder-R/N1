@@ -1,19 +1,26 @@
-/* *{
-    margin: 0;
-    padding: 0;
-} */
 h1{
     background-color: black;
     color: aqua;
     
 }
-.h1{
+h3{
     text-align: center;
 }
 section{
     text-align: center;
     background-color: black;
-    color: aqua;
+    color: whitesmoke;
     margin: 50px;
-    height: 550px;
+    height: auto;
+}
+#inicio{
+    color:yellowgreen;
+}
+p{
+    text-align: center;
+    text-align: justify;
+}
+.nav{
+    text-align: center;
+    text-align: justify;
 }

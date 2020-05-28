@@ -5,21 +5,58 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <title>Nosso Menu</title>
   </head>
   <body>
     <nav class="navbar navbar-light navbar-expand-md bg-light">
-    
-    <h1>Comida LTDA.</h1>
+      <a class="navbar-brand" href="#"><h1>Comida LTDA.</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse-sm" id="navbarSupportedContent">
+          <ul class="navbar-nav md">
+            <p><li class="nav-item">
+              <a class="nav-link d-sm-flex flex-column" href="#">
+                <i class="fas fa-utensils" aria-hidden="true"></i> <p>Inicio</p>
+              </a>
+            </li>
+          </p>
+          <p>
+            <li class="nav-item">
+              <a class="nav-link d-sm-flex flex-column" href=#frango">
+                <i class="fas fa-info" aria-hidden="true"></i> <p>Frango</p>
+              </a>
+            </li>
+          </p>
+          <p>
+            <li class="nav-item">
+              <a class="nav-link d-sm-flex flex-column" href="#carne">
+                <i class="fas fa-award" aria-hidden="true"></i> <p>Carne</p>
+              </a>
+            </li>
+          </p>
+          <p>
+              <li class="nav-item">
+                <a class="nav-link d-sm-flex flex-column" href="#sushi">
+                  <i class="fas fa-award" aria-hidden="true"></i> <p>Sushi</p>
+                </a>
+              </li>
+            </p>
+          </div>
+      </nav>
+
     <br>
-    <div class="h1">Nosso Menu</div>
+    <h3>Nosso Menu</h3>
     <br>
     <div class="container-fluid">
       <div class="row">
           <div id="s1" class="col-lg-4 col-md-6">
-          <section>
+            <section id="frango">
               <h3>Frango</h3>
               <article>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quibusdam perspiciatis non
@@ -29,18 +66,19 @@
           </section>
       </div>
           <div id="s2" class="col-lg-4 col-md-6">
-            <section>
+              <section id="carne">
                 <h3>Carne</h3>
                 <article>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quibusdam perspiciatis non
                     voluptatem, id nulla consectetur totam debitis sit eligendi odit, obcaecati repellendus iste
                     deleniti iusto tempora ipsa delectus explicabo.
+                    <a href="#">Volta para o inicio</a>
                 </article>
             </section>
         </div>
         <div id="s3" class="col-lg-4">
-            <section>
-                <h3>Sushi</h3>
+          <section id="suchi">
+              <h3>Sushi</h3>
                 <article>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quibusdam perspiciatis non
                     voluptatem, id nulla consectetur totam debitis sit eligendi odit, obcaecati repellendus iste
